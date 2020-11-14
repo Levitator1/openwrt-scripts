@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pppd "$1" noauth 115200 connect "echo; echo 'cd ~;./runpppd.sh'" nocrtscts nocdtrcts deflate 15,15
+
+
+
+
